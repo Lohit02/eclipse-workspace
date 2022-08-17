@@ -1,0 +1,12 @@
+package string;
+
+public class String5 {
+
+	public static void main(String[] args) {
+		String str= "this is exercise 1";
+		String str1= "my name is Lohit";
+		System.out.println(str.compareTo(str1));
+
+	}
+
+}

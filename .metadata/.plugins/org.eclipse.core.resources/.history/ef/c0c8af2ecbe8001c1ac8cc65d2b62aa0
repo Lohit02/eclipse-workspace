@@ -1,0 +1,22 @@
+package methods;
+
+import java.util.Arrays;
+
+public class dot_operator {
+
+	public static void main(String[] args) {
+		
+		
+		Student[] stu1= new Student[5];
+		
+		Student lohit;
+		lohit= new Student();
+		System.out.println(Arrays.toString(stu1 ));
+		
+		}
+	}
+	class Student{
+		int rollno;
+		String marks;
+		float percetage;
+}

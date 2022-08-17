@@ -1,0 +1,20 @@
+package string;
+
+import java.util.Scanner;
+
+public class pal {
+
+	public static void main(String[] args) {
+		 Scanner sc= new Scanner(System.in);
+	       String str="";
+	       String str1=sc.nextLine();
+	       for(int i=str1.length()-1;i>=0;i--)
+	           str=str+str1.charAt(i);
+	           if(str==str1)
+	       System.out.println("Yes");
+	       else
+	       System.out.println("No");
+
+	}
+
+}

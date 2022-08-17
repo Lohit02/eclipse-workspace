@@ -1,0 +1,29 @@
+package string;
+
+import java.util.Scanner;
+
+public class anagram {
+
+	public static void main(String[] args) {
+		Scanner sc= new Scanner (System.in);
+	    String str= sc.nextLine();
+	    str=str.toUpperCase();
+	    String str1= sc.nextLine();
+	    str1=str1.toUpperCase();
+	    String st="";
+	    st=st.toUpperCase();
+	    for(int i=0;i<str.length();i++){
+	        for(int j=0;j<str1.length();j++){
+	            if(str.charAt(i)==str1.charAt(j));
+	            st=st+str1.charAt(j);
+	        }
+	        
+	    }System.out.println(st);
+	    if(st.equalsIgnoreCase(str))
+	        System.out.println("Anagrams");
+	        else
+	        System.out.println("Not Anagrams");
+
+	}
+
+}

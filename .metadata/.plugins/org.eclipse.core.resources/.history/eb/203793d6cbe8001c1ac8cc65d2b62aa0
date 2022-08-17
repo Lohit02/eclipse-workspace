@@ -1,0 +1,26 @@
+package methods;
+
+import java.util.Arrays;
+
+public class dot_operator {
+
+	public static void main(String[] args) {
+		
+		
+		//Student[] stu1= new Student[5];
+		
+		Student lohit;
+		lohit= new Student();
+		System.out.println(lohit.rollno);
+		
+		}
+	}
+	class Student{
+		int rollno;
+		String name;
+		float percetage;
+		double avg;
+		String add;
+		boolean married;
+		boolean qualified;
+}

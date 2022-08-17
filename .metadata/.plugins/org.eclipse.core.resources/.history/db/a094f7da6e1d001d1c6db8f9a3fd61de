@@ -1,0 +1,26 @@
+package datastructures;
+
+import java.util.Scanner;
+
+public class bekar
+{
+
+	public static void main(String[] args) {
+		 Scanner sc= new Scanner(System.in);
+	     char[] a= sc.next().toCharArray();
+	     for(int i=0;i<a.length-1;i++) 
+	     {
+	    	if(a[i]!=a[i+1])
+	    	{
+	    		System.out.println(a[i]);
+	    	}System.out.println(a[a.length]);
+	     }
+	
+	
+	
+	
+	
+	}
+}
+
+

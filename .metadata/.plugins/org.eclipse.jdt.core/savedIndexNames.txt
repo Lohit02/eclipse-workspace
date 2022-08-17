@@ -1,0 +1,7 @@
+INDEX VERSION 1.131+C:\Users\ADMIN\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3822937594.index
+75931715.index
+3435648363.index
+1325746828.index
+3328635432.index

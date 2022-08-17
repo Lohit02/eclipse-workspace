@@ -1,0 +1,42 @@
+package w3resource;
+
+import java.util.Scanner;
+
+public class exercise8_50 {
+
+	public static void main(String[] args) {
+		 Scanner in = new Scanner(System.in) ;
+			System.out.println("Enter the range ");
+			int n= in.nextInt();
+			System.out.println("divided by 3 only");
+			int i;
+			for( i=0;i<n;i++) {
+				if(i%3==0)
+				{
+				System.out.print(i);
+				}
+			}
+			System.out.println("divided by 5 only");
+				for( i=0;i<n;i++) {
+					if(i%5==0)
+					{
+					System.out.print(i);
+					}
+				}
+			System.out.println("divided by 3 & 5 only");
+					for( i=0;i<n;i++) {
+						if(i%3==0 && i%5==0)
+						{
+						System.out.print(i);
+						}
+					}
+	}
+}
+				
+				
+				
+			
+        
+	
+
+

@@ -1,0 +1,32 @@
+package javaproject;
+
+public class Sum {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+   int a=9;
+   int b=10;
+   int sum=a+b;
+   System.out.println(sum);
+   
+   double [] values= new double[5];
+    values [0]= 5;
+    values [1]=10;
+    values [4] = 15;
+    
+    
+    System.out.println(values[4]);
+    
+    
+    doubles value[3]= { '1', '2','3', '4'};
+    System.out.println(value[1]);
+   
+   
+   
+   
+   
+   
+  
+	}
+
+}
